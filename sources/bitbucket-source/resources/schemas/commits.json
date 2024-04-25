@@ -3,166 +3,163 @@
   "type": "object",
   "properties": {
     "hash": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "date": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "message": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "type": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "rendered": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "message": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "raw": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "markup": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "html": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         }
       }
     },
     "repository": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "links": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "htmlUrl": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri"
             }
           }
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "fullName": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "uuid": {
-          "type": "string",
-          "format": "uuid"
+          "type": ["string", "null"]
         }
       }
     },
     "links": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "commentsUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "htmlUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "diffUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "approveUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "statusesUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         }
       }
     },
     "author": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "raw": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "user": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "displayName": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "uuid": {
-              "type": "string",
-              "format": "uuid"
+              "type": ["string", "null"]
             },
             "links": {
-              "type": "object",
+              "type": ["object", "null"],
               "properties": {
                 "htmlUrl": {
-                  "type": "string",
+                  "type": ["string", "null"],
                   "format": "uri"
                 }
               }
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "nickname": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "accountId": {
-              "type": "string",
-              "format": "uuid"
+              "type": ["string", "null"]
             }
           }
         }
       }
     },
     "summary": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "raw": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "markup": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "html": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
     "parents": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
-        "type": "object",
+        "type": ["object", "null"],
         "properties": {
           "hash": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "type": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "links": {
-            "type": "object",
+            "type": ["object", "null"],
             "properties": {
               "htmlUrl": {
-                "type": "string",
+                "type": ["string", "null"],
                 "format": "uri"
               }
             }

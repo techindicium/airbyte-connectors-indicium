@@ -3,111 +3,111 @@
   "type": "object",
   "properties": {
     "type": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "uuid": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "buildNumber": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "createdOn": {
-      "type": "string",
+      "type": ["string", "null"],
       "format": "date-time"
     },
     "completedOn": {
-      "type": "string",
+      "type": ["string", "null"],
       "format": "date-time"
     },
     "runNumber": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "durationInSeconds": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "buildSecondsUsed": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "firstSuccessful": {
-      "type": "boolean"
+      "type": ["boolean", "null"]
     },
     "expired": {
-      "type": "boolean"
+      "type": ["boolean", "null"]
     },
     "hasVariables": {
-      "type": "boolean"
+      "type": ["boolean", "null"]
     },
     "repository": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "links": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "htmlUrl": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri"
             }
           }
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "fullName": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "uuid": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
     "state": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "stage": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "name": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         }
       }
     },
     "creator": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "displayName": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "accountId": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "nickname": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "uuid": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "links": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "htmlUrl": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri"
             }
           }
@@ -115,39 +115,39 @@
       }
     },
     "target": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "hash": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "refType": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "refName": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "selector": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         },
         "commit": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "hash": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "links": {
-              "type": "object",
+              "type": ["object", "null"],
               "properties": {
                 "htmlUrl": {
-                  "type": "string",
+                  "type": ["string", "null"],
                   "format": "uri"
                 }
               }
@@ -157,24 +157,21 @@
       }
     },
     "trigger": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
     "links": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "htmlUrl": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "format": "uri"
         }
       }
