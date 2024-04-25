@@ -5,272 +5,272 @@
   "additionalItems": true,
   "properties": {
     "description": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "title": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "type": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "createdOn": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "state": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "reason": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "updatedOn": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "closeSourceBranch": {
-      "type": "boolean"
+      "type": ["boolean", "null"]
     },
     "id": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "commentCount": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "taskCount": {
-      "type": ["number"]
+      "type": ["number", "null"]
     },
     "calculatedActivity": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "commitCount": {
-          "type": "number"
+          "type": ["number", "null"]
         },
         "mergedAt": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
     "diffStat": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "linesAdded": {
-          "type": "number"
+          "type": ["number", "null"]
         },
         "linesDeleted": {
-          "type": "number"
+          "type": ["number", "null"]
         },
         "filesChanged": {
-          "type": "number"
+          "type": ["number", "null"]
         }
       }
     },
     "links": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "declineUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "diffstatUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "commitsUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "commentsUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "mergeUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "htmlUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "activityUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "diffUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "approveUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         },
         "statusesUrl": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uri"
         }
       }
     },
     "destination": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "commit": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "links": {
-              "type": "object",
+              "type": ["object", "null"],
               "properties": {
                 "htmlUrl": {
-                  "type": "string",
+                  "type": ["string", "null"],
                   "format": "uri"
                 }
               }
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "hash": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         },
         "repository": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "links": {
-              "type": "object",
+              "type": ["object", "null"],
               "properties": {
                 "htmlUrl": {
-                  "type": "string",
+                  "type": ["string", "null"],
                   "format": "uri"
                 }
               }
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "name": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "fullName": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "uuid": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uuid"
             }
           }
         },
         "branch": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "name": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         }
       }
     },
     "summary": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "raw": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "markup": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "html": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
     "source": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "commit": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "links": {
-              "type": "object",
+              "type": ["object", "null"],
               "properties": {
                 "htmlUrl": {
-                  "type": "string",
+                  "type": ["string", "null"],
                   "format": "uri"
                 }
               }
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "hash": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         },
         "repository": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "links": {
-              "type": "object",
+              "type": ["object", "null"],
               "properties": {
                 "htmlUrl": {
-                  "type": "string",
+                  "type": ["string", "null"],
                   "format": "uri"
                 }
               }
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "name": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "fullName": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "uuid": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uuid"
             }
           }
         },
         "branch": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "name": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         }
       }
     },
     "author": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "displayName": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "uuid": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uuid"
         },
         "links": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "htmlUrl": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri"
             }
           }
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "nickname": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "accountId": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uuid"
         }
       }
@@ -279,19 +279,19 @@
       "type": ["object", "null"],
       "properties": {
         "links": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "htmlUrl": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri"
             }
           }
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "hash": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
@@ -299,29 +299,29 @@
       "type": ["object", "null"],
       "properties": {
         "displayName": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "uuid": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uuid"
         },
         "links": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "htmlUrl": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri"
             }
           }
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "nickname": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "accountId": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "uuid"
         }
       }

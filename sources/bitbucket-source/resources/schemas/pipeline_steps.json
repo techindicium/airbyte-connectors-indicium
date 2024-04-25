@@ -3,151 +3,133 @@
   "type": "object",
   "properties": {
     "completedOn": {
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string","null"],
       "format": "date-time"
     },
     "uuid": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "startedOn": {
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string", "null"],
       "format": "date-time"
     },
     "type": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "name": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "runNumber": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "maxTime": {
-      "type": [
-        "number",
-        "null"
-      ]
+      "type": ["number","null"]
     },
     "buildSecondsUsed": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "durationInSeconds": {
-      "type": [
-        "number",
-        "null"
-      ]
+      "type": ["number", "null"]
     },
     "pipeline": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "uuid": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
     "image": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
     "scriptCommands": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
-        "type": "object",
+        "type": ["object", "null"],
         "properties": {
           "commandType": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "command": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "name": {
-            "type": "string"
+            "type": ["string", "null"]
           }
         }
       }
     },
     "state": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "result": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "name": {
-              "type": [
-                "string",
-                "null"
-              ]
+              "type": ["string","null"]
             },
             "type": {
-              "type": [
-                "string",
-                "null"
-              ]
+              "type": ["string","null"]
             }
           }
         }
       }
     },
     "trigger": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       }
     },
     "teardownCommands": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
-        "type": "object",
+        "type": ["object", "null"],
         "properties": {
           "commandType": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "command": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "name": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "action": {
-            "type": "string"
+            "type": ["string", "null"]
           }
         }
       }
     },
     "setupCommands": {
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
-        "type": "object",
+        "type": ["object", "null"],
         "properties": {
           "commandType": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "command": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "name": {
-            "type": "string"
+            "type": ["string", "null"]
           }
         }
       }

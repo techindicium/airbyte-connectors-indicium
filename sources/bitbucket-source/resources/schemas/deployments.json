@@ -4,145 +4,133 @@
   "additionalProperties": true,
   "properties": {
     "type": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "uuid": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "name": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": ["string", "null"]
     },
     "key": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "version": {
-      "type": "number"
+      "type": ["number", "null"]
     },
     "lastUpdateTime": {
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string", "null"],
       "format": "date-time"
     },
     "environment": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "uuid": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         }
       }
     },
     "fullEnvironment": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "rank": {
-          "type": "number"
+          "type": ["number", "null"]
         },
         "hidden": {
-          "type": "boolean"
+          "type": ["boolean", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "slug": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "uuid": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "environmentLockEnabled": {
-          "type": "boolean"
+          "type": ["boolean", "null"]
         },
         "deploymentGateEnabled": {
-          "type": "boolean"
+          "type": ["boolean", "null"]
         },
         "category": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "name": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         },
         "restrictions": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "adminOnly": {
-              "type": "boolean"
+              "type": ["boolean", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         },
         "lock": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "name": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         },
         "environmentType": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "rank": {
-              "type": "number"
+              "type": ["number", "null"]
             },
             "name": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         }
       }
     },
     "step": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "uuid": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         }
       }
     },
     "commit": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "hash": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "links": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "htmlUrl": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri"
             }
           }
@@ -150,94 +138,82 @@
       }
     },
     "state": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "startedOn": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "format": "date-time"
         },
         "completedOn": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "format": "date-time"
         },
         "status": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "name": {
-              "type": [
-                "string",
-                "null"
-              ]
+              "type": ["string", "null"]
             },
             "type": {
-              "type": [
-                "string",
-                "null"
-              ]
+              "type": ["string", "null"]
             }
           }
         }
       }
     },
     "deployable": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "uuid": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "key": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "url": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "createdOn": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "date-time"
         },
         "pipeline": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "uuid": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         },
         "commit": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "hash": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "links": {
-              "type": "object",
+              "type": ["object", "null"],
               "properties": {
                 "htmlUrl": {
-                  "type": "string",
+                  "type": ["string", "null"],
                   "format": "uri"
                 }
               }
@@ -247,52 +223,52 @@
       }
     },
     "release": {
-      "type": "object",
+      "type": ["object", "null"],
       "properties": {
         "uuid": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "type": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "key": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "url": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "createdOn": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "date-time"
         },
         "pipeline": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "uuid": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             }
           }
         },
         "commit": {
-          "type": "object",
+          "type": ["object", "null"],
           "properties": {
             "hash": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "type": {
-              "type": "string"
+              "type": ["string", "null"]
             },
             "links": {
-              "type": "object",
+              "type": ["object", "null"],
               "properties": {
                 "htmlUrl": {
-                  "type": "string",
+                  "type": ["string", "null"],
                   "format": "uri"
                 }
               }
