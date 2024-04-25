@@ -39,8 +39,7 @@
               "type": ["string", "null"]
             },
             "uuid": {
-              "type": ["string", "null"],
-              "format": "uuid"
+              "type": ["string", "null"]
             },
             "links": {
               "type": ["object", "null"],
@@ -58,8 +57,7 @@
               "type": ["string", "null"]
             },
             "accountId": {
-              "type": ["string", "null"],
-              "format": "uuid"
+              "type": ["string", "null"]
             }
           }
         }
@@ -131,8 +129,7 @@
                   "type": ["string", "null"]
                 },
                 "uuid": {
-                  "type": ["string", "null"],
-                  "format": "uuid"
+                  "type": ["string", "null"]
                 }
               }
             },
@@ -191,8 +188,7 @@
                   "type": ["string", "null"]
                 },
                 "uuid": {
-                  "type": ["string", "null"],
-                  "format": "uuid"
+                  "type": ["string", "null"]
                 }
               }
             },
@@ -213,8 +209,7 @@
               "type": ["string", "null"]
             },
             "uuid": {
-              "type": ["string", "null"],
-              "format": "uuid"
+              "type": ["string", "null"]
             },
             "links": {
               "type": ["object", "null"],
@@ -232,8 +227,7 @@
               "type": ["string", "null"]
             },
             "accountId": {
-              "type": ["string", "null"],
-              "format": "uuid"
+              "type": ["string", "null"]
             }
           }
         },
@@ -381,8 +375,7 @@
               "type": ["string", "null"]
             },
             "uuid": {
-              "type": ["string", "null"],
-              "format": "uuid"
+              "type": ["string", "null"]
             },
             "links": {
               "type": ["object", "null"],
@@ -400,8 +393,7 @@
               "type": ["string", "null"]
             },
             "accountId": {
-              "type": ["string", "null"],
-              "format": "uuid"
+              "type": ["string", "null"]
             }
           }
         }
